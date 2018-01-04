@@ -19,6 +19,10 @@ $ rostopic list
 $ rqt_image_view /camera/depth/image
 ```
 You should be able to see some image from the kinect device. 
+<p align="center">
+ <img src="./img/depth_map.png" width="720">
+</p>
+
 
 ## Processing depth images
 ```
@@ -26,7 +30,7 @@ $ sudo apt-get install ros-kinetic-depthimage-to-laserscan
 $ rosrun depthimage_to_laserscan depthimage_to_laserscan image:=camera/depth/image_raw
 ```
 <p align="center">
- <img src="./img/depth_map.png" width="720">
+ <img src="./img/laser_scan.png" width="720">
 </p>
 
 In new terminal
