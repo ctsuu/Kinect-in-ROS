@@ -32,5 +32,5 @@ In new terminal
 $ rosrun rviz rivz
 ```
 <p align="center">
- <img src=".img/depth_map.png" width="720">
+ <img src="./img/depth_map.png" width="720">
 </p>
