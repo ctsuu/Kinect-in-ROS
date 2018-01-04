@@ -32,5 +32,6 @@ In new terminal
 $ rosrun rviz rivz
 
 <p align="center">
- <img src="./output_images/camera_calibrication.png" width="720">
+ <img src=".img/Screenshot from 2018-01-03 23-26-29.png
+" width="720">
 </p>
