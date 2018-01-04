@@ -20,6 +20,17 @@ $ rqt_image_view /camera/depth/image
 ```
 You should be able to see some image from the kinect device. 
 
+## Processing depth images
+```
+$ sudo apt-get install ros-kinetic-depthimage-to-laserscan
+$ rosrun depthimage_to_laserscan depthimage_to_laserscan image:=camera/depth/image_raw
 
+In new terminal
+$ rqt_image_view
 
+In new terminal
+$ rosrun rviz rivz
 
+<p align="center">
+ <img src="./output_images/camera_calibrication.png" width="720">
+</p>
