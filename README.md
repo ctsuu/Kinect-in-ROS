@@ -44,3 +44,18 @@ $ rosrun rviz rivz
 <p align="center">
  <img src="./img/Screenshot from 2018-01-03 23-26-29.png" width="800">
 </p>
+
+## More Automation
+
+Add the following nodes to launch file
+```
+<!-- The kinect node -->
+  <include file="$(find freenect_launch)/launch/freenect.launch">
+  </include>
+
+  <!-- The depthimage to laserscan node -->
+  <node name="depthimage_to_laserscan" type="depthimage_to_laserscan" pkg="depthimage_to_laserscan"
+  args="image:=camera/depth/image_raw" />
+```
+
+
