@@ -49,7 +49,7 @@ $ rosrun rviz rivz
 
 Add the following nodes to launch file
 ```
-<!-- The kinect node -->
+  <!-- The kinect node -->
   <include file="$(find freenect_launch)/launch/freenect.launch">
   </include>
 
