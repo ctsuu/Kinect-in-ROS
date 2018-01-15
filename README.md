@@ -57,5 +57,8 @@ Add the following nodes to launch file
   <node name="depthimage_to_laserscan" type="depthimage_to_laserscan" pkg="depthimage_to_laserscan"
   args="image:=camera/depth/image_raw" />
 ```
-
+ ## Future Work
+ To make something like: 
+ http://howtomechatronics.com/projects/arduino-radar-project/
+ 
 
